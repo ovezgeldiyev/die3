@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'ScalaSansLF-Bold';
+    src: url('scala-sans-bold-lf.otf') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ScalaSansLF-Bold';
+    src: url('ScSLfRg_.ttf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ScalaLF-Regular';
+    src: url('scala-sans-lf-regular.otf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+

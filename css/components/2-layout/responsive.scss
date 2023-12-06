@@ -1,0 +1,157 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+    p {
+        font-size: 30px;
+    }
+    .main {
+        padding-top: 148.06px;
+    }
+    .check {
+        &__box {
+            width: 44px;
+            height: 44px;
+            margin-right: 10px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    @include header-xxxxlg-xxxxxlg;
+    @include nav-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+    @include intro-xxxlg-xxxxlg;
+    @include info-xxxlg-xxxxlg;
+    @include footer-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+    // @include intro-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+    .auto__container {
+        padding: 0 30px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    h6 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 25px;
+        &.sm {
+            font-size: 16px;
+        }
+    }
+    .main {
+        padding-top: 100.05px;
+    }
+    .banner {
+        margin-bottom: 55px;
+    }
+    @include header-xlg-xxlg;
+    @include nav-xlg-xxlg;
+    @include intro-xlg-xxlg;
+    @include footer-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    p {
+        font-size: 22px;
+    }
+    @include nav-lg-xlg;
+    @include intro-lg-xlg;
+    @include info-lg-xlg;
+}
+// 930px
+@include md-lg {
+    h5 {
+        font-size: 18px;
+    }
+    h6 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 140%;
+        &.sm {
+            font-size: 13px;
+        }
+    }
+    .gallery {
+        &__item {
+            margin-bottom: 14px;
+        }
+    }
+    @include footer-md-lg;
+}
+// 750px
+@include sm-md {
+    .auto__container {
+        padding: 0 20px;
+    }
+    .banner {
+        margin-bottom: 30px;
+        min-height: 200px;
+    }
+    @include intro-sm-md;
+    @include info-sm-md;
+    @include footer-sm-md;
+}
+// 650px
+@include sm-md-extra {
+    .gallery {
+        gap: 10px;
+        padding-top: 50px;
+        &__item {
+            margin-bottom: 10px;
+        }
+    }
+    // @include intro-sm-md-extra;
+}
+// 540px
+@include xsm-sm  {
+    .main {
+        padding-top: 75.03px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 145%;
+    }
+    .check {
+        &__box {
+            width: 35px;
+            height: 35px;
+        }
+        p {
+            font-size: 17px;
+        }
+    }
+    .gallery {
+        gap: 0;
+        padding-top: 40px;
+        column-count: 1;
+        &__item {
+            margin-bottom: 12px;
+        }
+    }
+    @include header-xsm-sm;
+    @include nav-xsm-sm;
+    @include intro-xsm-sm;
+    @include info-xsm-sm;
+}
+// 440px
+@include xxsm-xsm  {
+    // @include intro-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm  {
+    // @include intro-xxxsm-xxsm;
+}
+
